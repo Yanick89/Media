@@ -1,0 +1,102 @@
+/*consacré à la police*/
+
+body 
+{
+	background-color: #ffffff;
+	color: black;
+	display: flex;
+	font-family: verdana;
+	margin: 0;
+	padding: 0;
+}
+/*header*/
+
+header
+
+/*les elements de navigation*/
+.home img
+{
+	border: 1px solid red;
+	margin-top: 12px;
+	margin-left: 0px;
+	width: 25px;
+	float: left;
+	position: absolute;
+}
+nav
+{
+	width: 100;
+	padding: 0;
+	background-color: #ff0000;
+	overflow: auto;
+}
+
+nav ul 
+{
+	display: flex;
+	border: 1px solid blue;
+	justify-content: flex-end;
+	list-style-type: none;
+	
+}
+nav li
+ {	
+ 	border: 1px yellow solid;
+ 	margin-left: 5em;
+ 	padding-right: 5em,
+ }	
+nav a 
+{
+	text-decoration: none;
+	color: black;
+	padding-left: 5em;
+
+}
+
+/*elementd du corps*/
+blockquote 
+{
+	font-style: italic;
+}
+.image img
+{
+	float: left;
+	width: 15em;
+	padding-left: 15px;
+}
+
+p
+{	
+	margin-left: 40px;
+	padding-right:200px;
+	text-align: justify ;
+}
+h1
+{
+	padding-left: 40%;
+}
+ul 
+{
+	display: inline-block;
+	padding-left: 25%;
+	list-style-type: none;
+}
+
+/*elements de pieds de page*/
+footer
+<h1>Yanick</h1>
+
+.bloc_foot
+{
+	width: 100%
+	padding:0;
+	border: 1px solid green;
+	background-color: #3f3f81;
+	clear: both;	
+}
+.bloc_foot img
+{
+	height: 25px;
+	width:25px;
+	margin: 30px;
+}
