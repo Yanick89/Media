@@ -16,13 +16,12 @@ header
 /*les elements de navigation*/
 .home img
 {
-	border: 1px solid red;
 	margin-top: 12px;
 	margin-left: 0px;
 	width: 25px;
-	float: left;
 	position: absolute;
 }
+
 nav
 {
 	width: 100;
@@ -34,14 +33,12 @@ nav
 nav ul 
 {
 	display: flex;
-	border: 1px solid blue;
 	justify-content: flex-end;
 	list-style-type: none;
 	
 }
 nav li
  {	
- 	border: 1px yellow solid;
  	margin-left: 5em;
  	padding-right: 5em,
  }	
@@ -58,9 +55,10 @@ blockquote
 {
 	font-style: italic;
 }
-.image img
+ img
 {
-	float: left;
+	display: flex;
+	align-items: center;
 	width: 15em;
 	padding-left: 15px;
 }
@@ -87,15 +85,15 @@ footer
 <h1>Yanick</h1>
 
 .bloc_foot
-{
+{	justify-content: space-around;
 	width: 100%
 	padding:0;
-	border: 1px solid green;
-	background-color: #3f3f81;
-	clear: both;	
+	background-color: #3f3f81;	
 }
 .bloc_foot img
 {
+	display: flex;
+	justify-content: space-around;
 	height: 25px;
 	width:25px;
 	margin: 30px;
